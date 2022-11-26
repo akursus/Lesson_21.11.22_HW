@@ -42,5 +42,14 @@ public class Main {
             System.out.println(i);
         }
 
+        //Task 3.1
+        System.out.println("Задание 3.1");
+        int contribution = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i ++) {
+            total = total + contribution;
+            System.out.println("Месяц " +i +" сумма накоплений равна " +total +" рублей");
+        }
+
     }
 }

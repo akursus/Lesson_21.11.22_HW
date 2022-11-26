@@ -51,5 +51,15 @@ public class Main {
             System.out.println("Месяц " +i +" сумма накоплений равна " +total +" рублей");
         }
 
+        //Task 3.2
+        System.out.println("Задание 3.1");
+        int contribution1 = 29000;
+        int accumulation = 0;
+        for (int i = 0; i <= 12; i ++) {
+            accumulation = accumulation + accumulation/100;
+            accumulation = accumulation + contribution1;
+            System.out.println("Месяц " +i +" сумма накоплений равна " +accumulation +" рублей");
+        }
+
     }
 }

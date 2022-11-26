@@ -18,5 +18,11 @@ public class Main {
             System.out.println(i);
         }
 
+        //Task 1.4
+        System.out.println("Задание 1.4");
+        for (int i = 10; i >= -10; i --) {
+            System.out.println(i);
+        }
+
     }
 }

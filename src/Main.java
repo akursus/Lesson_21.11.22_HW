@@ -55,7 +55,7 @@ public class Main {
         }
 
         //Task 3.2
-        System.out.println("Задание 3.1");
+        System.out.println("Задание 3.2");
         int accumulation = 0;
         for (int i = 1; i <= 12; i ++) {
             accumulation += contribution;
